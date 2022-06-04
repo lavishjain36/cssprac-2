@@ -1,0 +1,330 @@
+
+
+body {
+    margin:0;
+    padding: 0;
+  }
+  
+  h1,h2,h3,h4 {
+    font-family: 'Khand', sans-serif;
+  }
+  
+  h1{font-size: 60px;}
+  h2{font-size: 40px;}
+  h3{font-size: 36px;}
+  h4{font-size: 30px;}
+  
+  p {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+  
+  a {
+    font-family: 'Khand', sans-serif;
+    color: #32CD32;
+  }
+  
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+  }
+  
+  #header {
+    overflow: hidden;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    float: left;
+    width: 200px;
+  }
+  
+  #nav {
+    float: right;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  #nav a {
+    float: left;
+    padding: 30px;
+    height: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #32CD32;
+  }
+  
+  #nav a:hover {
+    color: #ccc;
+  }
+  
+  #nav a:nth-of-type(5n) {
+    margin:0;
+  }
+  
+  #nature {
+    height: auto;
+    padding: 180px 0;
+    text-align: center;
+    color: #fff;
+    background: url(
+  https://res.cloudinary.com/budroni/image/upload/v1494375846/save4_wuuqy6.jpg)no-repeat center bottom / cover;
+  }
+  
+  #nature a {
+    padding: 20px 30px;
+    background: #32CD32;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  #nature a:hover {
+    color: #32CD32;
+    background: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  #aboutus {
+    padding: 50px 0;
+    text-align: center;
+    color: #ccc;
+  }
+  
+  #mission {
+    height: auto;
+    padding: 50px 0;
+    background: url(https://res.cloudinary.com/budroni/image/upload/v1494375837/save_uqey1j.jpg)no-repeat center bottom / cover;
+    color: #ccc;
+    overflow: hidden;
+  }
+  
+  #mission .mission_head {
+    text-align: center;
+  }
+  
+  #mission .mission_text {
+    float: left;
+    height: auto;
+    width: 575px;
+    margin-right: 50px;
+  }
+  
+  #mission .mission_video {
+    float: right;
+    height: auto;
+    width: 575px;
+  }
+  
+  
+  /* TEAM */
+  
+  #team {
+    padding: 100px 0;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    color: #ccc;
+  }
+  
+  #team .team_head {
+    text-align: center;
+  }
+  
+  #team .team {
+    width: 290px;
+    float: left;
+    padding-bottom: 7px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 2px;
+  }
+  
+  .no-margin {
+    margin: 0;
+  }
+  
+  span a {
+    color: #ccc;
+  } 
+  
+  
+  
+  /* QUOTE */
+  
+  #quote {
+    padding: 50px 0;
+    height: auto;
+    overflow: hidden;
+    background: url(https://res.cloudinary.com/budroni/image/upload/v1494375834/quote_lupnp5.jpg) no-repeat center bottom / cover;
+  }
+  
+  
+  #quote .quote {
+    width: 270px;
+    padding: 7px;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  
+  
+  
+  
+  
+  /* AMBASADOR */
+  
+  #ambasador {
+    padding: 100px 0;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  #ambasador h4 {
+    color: #ccc;
+  }
+  
+  .ambasador_head {
+    text-align: center;
+    color: #ccc;
+  }
+  
+  #ambasador #first_section,
+  #ambasador #second_section  {
+    clear: both;
+  }
+  
+  
+  #ambasador .prvi {
+    width: 230px;
+    height: auto;
+    position: relative;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 50px;
+    border-radius: 2px;
+    color: #ccc;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  #ambasador .prvi:nth-of-type(5n) {
+    margin: 0;
+  }
+  
+  #ambasador .preko {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(255,255,255,0.3);
+    color: #fff;
+    text-align: center;
+    transition: 0.5s all ease;
+    opacity: 0;
+  }
+  
+  #ambasador .prvi:hover .preko {
+    opacity: 1;
+  }
+  
+  #ambasador span a {
+    padding: 8px 20px;
+    display: block;
+    background: rgba(255,255,255,0.8);
+    border:  2px solid #fff;
+    color: #2F4F4F;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  #ambasador span a:hover {
+    background: none;
+    transition: all 0.3s ease;
+    color: #fff;
+  }
+  
+  
+  /* FACTS_CONTACT */
+  
+  #facts {
+    padding: 10px 0;
+    height: auto;
+    overflow: hidden;
+    background: #000;
+  }
+  
+  #facts .facts_head {
+    text-align: center;
+    color: #ccc;
+  }
+  
+  #fact {
+    overflow: hidden;
+    clear: both;
+  }
+  
+  #fact .fact {
+    float: left;
+    width: 390px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #ccc;
+  }
+  
+  #fact .fact:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  
+  /* Footer */
+  
+  #contacts {
+    padding: 50px 0;
+    height: auto;
+    overflow: hidden;
+    color: #000;
+  }
+  
+  #contacts .contact_head {
+    text-align: center;
+    color: #ccc;
+  }
+  
+  #contact {
+    overflow: hidden;
+  }
+  
+  
+  #contact .contact {
+    float: left;
+    width: 390px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #32CD32;
+  }
+  
+  #contact .contact:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  
+  
+  
+  
+  /* Footer */
+  
+  #footer {
+    padding: 10px 0;
+    text-align: center;
+    background: #000;
+    color: #ccc;
+  }
